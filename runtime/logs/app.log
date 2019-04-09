@@ -1,0 +1,2972 @@
+2019-03-22 20:07:36 [::1][-][03d7k0s76rsvn37icgfrb7ku72][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/layout in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('layout', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/layout', Array)
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-03-22 20:07:36 [::1][-][03d7k0s76rsvn37icgfrb7ku72][info][application] $_GET = [
+    'r' => 'site/layout'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    'PHPSESSID' => '03d7k0s76rsvn37icgfrb7ku72'
+    '_csrf' => 'f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m40YRWEBjoCM1YX44xKIBZABQBaGXgqr\";}'
+]
+
+$_SESSION = [
+    'usuario' => 'Maritza'
+    'tipo' => 'A'
+    'nombre' => 'Maritza Ramirez'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; PHPSESSID=03d7k0s76rsvn37icgfrb7ku72; _csrf=f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m40YRWEBjoCM1YX44xKIBZABQBaGXgqr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '41398'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flayout'
+    'REQUEST_URI' => '/dermologia/web/index.php?r=site%2Flayout'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1553285255.947
+    'REQUEST_TIME' => 1553285255
+]
+2019-03-22 20:07:50 [::1][-][03d7k0s76rsvn37icgfrb7ku72][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/layout in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('layout', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/layout', Array)
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-03-22 20:07:50 [::1][-][03d7k0s76rsvn37icgfrb7ku72][info][application] $_GET = [
+    'r' => 'site/layout'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    'PHPSESSID' => '03d7k0s76rsvn37icgfrb7ku72'
+    '_csrf' => 'f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m40YRWEBjoCM1YX44xKIBZABQBaGXgqr\";}'
+]
+
+$_SESSION = [
+    'usuario' => 'Maritza'
+    'tipo' => 'A'
+    'nombre' => 'Maritza Ramirez'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; PHPSESSID=03d7k0s76rsvn37icgfrb7ku72; _csrf=f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m40YRWEBjoCM1YX44xKIBZABQBaGXgqr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '41414'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flayout'
+    'REQUEST_URI' => '/dermologia/web/index.php?r=site%2Flayout'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1553285270.728
+    'REQUEST_TIME' => 1553285270
+]
+2019-03-22 20:08:27 [::1][-][03d7k0s76rsvn37icgfrb7ku72][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/layout in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('layout', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/layout', Array)
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-03-22 20:08:27 [::1][-][03d7k0s76rsvn37icgfrb7ku72][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    'PHPSESSID' => '03d7k0s76rsvn37icgfrb7ku72'
+    '_csrf' => 'f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m40YRWEBjoCM1YX44xKIBZABQBaGXgqr\";}'
+]
+
+$_SESSION = [
+    'usuario' => 'Maritza'
+    'tipo' => 'A'
+    'nombre' => 'Maritza Ramirez'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php?r=site%2Flayout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; PHPSESSID=03d7k0s76rsvn37icgfrb7ku72; _csrf=f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m40YRWEBjoCM1YX44xKIBZABQBaGXgqr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '41422'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/site/layout'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/site/layout'
+    'PATH_TRANSLATED' => '/var/www/html/site/layout'
+    'PHP_SELF' => '/dermologia/web/index.php/site/layout'
+    'REQUEST_TIME_FLOAT' => 1553285307.504
+    'REQUEST_TIME' => 1553285307
+]
+2019-03-25 19:21:50 [::1][-][03d7k0s76rsvn37icgfrb7ku72][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Archivos". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('Archivos', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-03-25 19:21:50 [::1][-][03d7k0s76rsvn37icgfrb7ku72][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    'PHPSESSID' => '03d7k0s76rsvn37icgfrb7ku72'
+    '_csrf' => 'f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m40YRWEBjoCM1YX44xKIBZABQBaGXgqr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; PHPSESSID=03d7k0s76rsvn37icgfrb7ku72; _csrf=f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m40YRWEBjoCM1YX44xKIBZABQBaGXgqr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '42534'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/Archivos'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/Archivos'
+    'PATH_TRANSLATED' => '/var/www/html/Archivos'
+    'PHP_SELF' => '/dermologia/web/index.php/Archivos'
+    'REQUEST_TIME_FLOAT' => 1553541710.19
+    'REQUEST_TIME' => 1553541710
+]
+2019-03-25 19:22:03 [::1][-][03d7k0s76rsvn37icgfrb7ku72][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Biopsias". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('Biopsias', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-03-25 19:22:03 [::1][-][03d7k0s76rsvn37icgfrb7ku72][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    'PHPSESSID' => '03d7k0s76rsvn37icgfrb7ku72'
+    '_csrf' => 'f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m40YRWEBjoCM1YX44xKIBZABQBaGXgqr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; PHPSESSID=03d7k0s76rsvn37icgfrb7ku72; _csrf=f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m40YRWEBjoCM1YX44xKIBZABQBaGXgqr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '42542'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/Biopsias'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/Biopsias'
+    'PATH_TRANSLATED' => '/var/www/html/Biopsias'
+    'PHP_SELF' => '/dermologia/web/index.php/Biopsias'
+    'REQUEST_TIME_FLOAT' => 1553541723.298
+    'REQUEST_TIME' => 1553541723
+]
+2019-03-25 19:22:10 [::1][-][03d7k0s76rsvn37icgfrb7ku72][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Biopsia". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('Biopsia', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-03-25 19:22:10 [::1][-][03d7k0s76rsvn37icgfrb7ku72][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    'PHPSESSID' => '03d7k0s76rsvn37icgfrb7ku72'
+    '_csrf' => 'f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m40YRWEBjoCM1YX44xKIBZABQBaGXgqr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; PHPSESSID=03d7k0s76rsvn37icgfrb7ku72; _csrf=f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m40YRWEBjoCM1YX44xKIBZABQBaGXgqr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '42550'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/Biopsia'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/Biopsia'
+    'PATH_TRANSLATED' => '/var/www/html/Biopsia'
+    'PHP_SELF' => '/dermologia/web/index.php/Biopsia'
+    'REQUEST_TIME_FLOAT' => 1553541730.909
+    'REQUEST_TIME' => 1553541730
+]
+2019-03-25 19:22:45 [::1][-][03d7k0s76rsvn37icgfrb7ku72][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Biopsia/index". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('Biopsia/index', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-03-25 19:22:44 [::1][-][03d7k0s76rsvn37icgfrb7ku72][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    'PHPSESSID' => '03d7k0s76rsvn37icgfrb7ku72'
+    '_csrf' => 'f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m40YRWEBjoCM1YX44xKIBZABQBaGXgqr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; PHPSESSID=03d7k0s76rsvn37icgfrb7ku72; _csrf=f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m40YRWEBjoCM1YX44xKIBZABQBaGXgqr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '42554'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/Biopsia/index'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/Biopsia/index'
+    'PATH_TRANSLATED' => '/var/www/html/Biopsia/index'
+    'PHP_SELF' => '/dermologia/web/index.php/Biopsia/index'
+    'REQUEST_TIME_FLOAT' => 1553541764.997
+    'REQUEST_TIME' => 1553541764
+]
+2019-03-25 19:23:23 [::1][-][03d7k0s76rsvn37icgfrb7ku72][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Biopsia/index". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('Biopsia/index', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-03-25 19:23:23 [::1][-][03d7k0s76rsvn37icgfrb7ku72][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    'PHPSESSID' => '03d7k0s76rsvn37icgfrb7ku72'
+    '_csrf' => 'f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m40YRWEBjoCM1YX44xKIBZABQBaGXgqr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; PHPSESSID=03d7k0s76rsvn37icgfrb7ku72; _csrf=f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m40YRWEBjoCM1YX44xKIBZABQBaGXgqr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '42582'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/Biopsia/index'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/Biopsia/index'
+    'PATH_TRANSLATED' => '/var/www/html/Biopsia/index'
+    'PHP_SELF' => '/dermologia/web/index.php/Biopsia/index'
+    'REQUEST_TIME_FLOAT' => 1553541803.568
+    'REQUEST_TIME' => 1553541803
+]
+2019-03-25 19:23:24 [::1][-][03d7k0s76rsvn37icgfrb7ku72][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Biopsia/index". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('Biopsia/index', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-03-25 19:23:24 [::1][-][03d7k0s76rsvn37icgfrb7ku72][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    'PHPSESSID' => '03d7k0s76rsvn37icgfrb7ku72'
+    '_csrf' => 'f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m40YRWEBjoCM1YX44xKIBZABQBaGXgqr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; PHPSESSID=03d7k0s76rsvn37icgfrb7ku72; _csrf=f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m40YRWEBjoCM1YX44xKIBZABQBaGXgqr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '42582'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/Biopsia/index'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/Biopsia/index'
+    'PATH_TRANSLATED' => '/var/www/html/Biopsia/index'
+    'PHP_SELF' => '/dermologia/web/index.php/Biopsia/index'
+    'REQUEST_TIME_FLOAT' => 1553541804.112
+    'REQUEST_TIME' => 1553541804
+]
+2019-03-25 19:23:53 [::1][-][03d7k0s76rsvn37icgfrb7ku72][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/layout in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('layout', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/layout', Array)
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-03-25 19:23:53 [::1][-][03d7k0s76rsvn37icgfrb7ku72][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    'PHPSESSID' => '03d7k0s76rsvn37icgfrb7ku72'
+    '_csrf' => 'f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m40YRWEBjoCM1YX44xKIBZABQBaGXgqr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; PHPSESSID=03d7k0s76rsvn37icgfrb7ku72; _csrf=f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m40YRWEBjoCM1YX44xKIBZABQBaGXgqr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '42592'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/site/layout'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/site/layout'
+    'PATH_TRANSLATED' => '/var/www/html/site/layout'
+    'PHP_SELF' => '/dermologia/web/index.php/site/layout'
+    'REQUEST_TIME_FLOAT' => 1553541833.004
+    'REQUEST_TIME' => 1553541833
+]
+2019-03-25 19:25:04 [::1][-][03d7k0s76rsvn37icgfrb7ku72][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Paciente/". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('Paciente/', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-03-25 19:25:04 [::1][-][03d7k0s76rsvn37icgfrb7ku72][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    'PHPSESSID' => '03d7k0s76rsvn37icgfrb7ku72'
+    '_csrf' => 'f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m40YRWEBjoCM1YX44xKIBZABQBaGXgqr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; PHPSESSID=03d7k0s76rsvn37icgfrb7ku72; _csrf=f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m40YRWEBjoCM1YX44xKIBZABQBaGXgqr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '42620'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/Paciente/'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/Paciente/'
+    'PATH_TRANSLATED' => '/var/www/html/Paciente/'
+    'PHP_SELF' => '/dermologia/web/index.php/Paciente/'
+    'REQUEST_TIME_FLOAT' => 1553541904.121
+    'REQUEST_TIME' => 1553541904
+]
+2019-03-25 19:25:38 [::1][-][03d7k0s76rsvn37icgfrb7ku72][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Paciente/". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('Paciente/', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-03-25 19:25:38 [::1][-][03d7k0s76rsvn37icgfrb7ku72][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    'PHPSESSID' => '03d7k0s76rsvn37icgfrb7ku72'
+    '_csrf' => 'f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m40YRWEBjoCM1YX44xKIBZABQBaGXgqr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; PHPSESSID=03d7k0s76rsvn37icgfrb7ku72; _csrf=f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m40YRWEBjoCM1YX44xKIBZABQBaGXgqr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '42628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/Paciente/'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/Paciente/'
+    'PATH_TRANSLATED' => '/var/www/html/Paciente/'
+    'PHP_SELF' => '/dermologia/web/index.php/Paciente/'
+    'REQUEST_TIME_FLOAT' => 1553541938.025
+    'REQUEST_TIME' => 1553541938
+]
+2019-03-25 19:32:14 [::1][-][03d7k0s76rsvn37icgfrb7ku72][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Control". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('Control', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-03-25 19:32:14 [::1][-][03d7k0s76rsvn37icgfrb7ku72][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    'PHPSESSID' => '03d7k0s76rsvn37icgfrb7ku72'
+    '_csrf' => 'f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m40YRWEBjoCM1YX44xKIBZABQBaGXgqr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; PHPSESSID=03d7k0s76rsvn37icgfrb7ku72; _csrf=f152bcaae760a6d0194e457364ccd14e29318e192e684591b2a787accb059225a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m40YRWEBjoCM1YX44xKIBZABQBaGXgqr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '42956'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/Control'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/Control'
+    'PATH_TRANSLATED' => '/var/www/html/Control'
+    'PHP_SELF' => '/dermologia/web/index.php/Control'
+    'REQUEST_TIME_FLOAT' => 1553542334.257
+    'REQUEST_TIME' => 1553542334
+]
+2019-04-09 18:58:14 [::1][-][mkhsr6jpj28nro0rubmssi8upl][error][Error] Error: Call to undefined method app\models\Usuarios::findIdentity() in /var/www/html/dermologia/vendor/yiisoft/yii2/web/User.php:690
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/User.php(192): yii\web\User->renewAuthStatus()
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/web/User.php(360): yii\web\User->getIdentity()
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#3 /var/www/html/dermologia/vendor/yiisoft/yii2-debug/src/panels/UserPanel.php(79): yii\base\Component->__get('isGuest')
+#4 /var/www/html/dermologia/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#5 [internal function]: yii\base\BaseObject->__construct(Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/di/Container.php(384): ReflectionClass->newInstanceArgs(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2-debug/src/Module.php(182): yii\BaseYii::createObject(Array)
+#10 /var/www/html/dermologia/vendor/yiisoft/yii2-debug/src/Module.php(154): yii\debug\Module->initPanels()
+#11 /var/www/html/dermologia/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\Module->init()
+#12 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(158): yii\base\BaseObject->__construct(Array)
+#13 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#14 /var/www/html/dermologia/vendor/yiisoft/yii2/di/Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#15 /var/www/html/dermologia/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#16 /var/www/html/dermologia/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#17 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject(Array, Array)
+#18 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(315): yii\base\Module->getModule('debug')
+#19 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#20 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#21 /var/www/html/dermologia/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#22 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#23 /var/www/html/dermologia/web/index.php(12): yii\base\Application->__construct(Array)
+#24 {main}
+2019-04-09 18:58:14 [::1][-][mkhsr6jpj28nro0rubmssi8upl][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => 'mkhsr6jpj28nro0rubmssi8upl'
+    '_csrf' => '2aa04ab058237c66e0f7bc1ab8ac8b12a7a25ef8d62a0157cad05ea3698f8139a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4zNBK1w2ihBsW_7yGqoSEMt6W5T7NQ1f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=mkhsr6jpj28nro0rubmssi8upl; _csrf=2aa04ab058237c66e0f7bc1ab8ac8b12a7a25ef8d62a0157cad05ea3698f8139a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224zNBK1w2ihBsW_7yGqoSEMt6W5T7NQ1f%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55274'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554836294.859
+    'REQUEST_TIME' => 1554836294
+]
+2019-04-09 19:06:54 [::1][-][mkhsr6jpj28nro0rubmssi8upl][error][yii\base\ErrorException:1] yii\base\ErrorException: Class app\models\Usuarios contains 5 abstract methods and must therefore be declared abstract or implement the remaining methods (yii\web\IdentityInterface::findIdentity, yii\web\IdentityInterface::findIdentityByAccessToken, yii\web\IdentityInterface::getId, ...) in /var/www/html/dermologia/models/Usuarios.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-04-09 19:06:54 [::1][-][mkhsr6jpj28nro0rubmssi8upl][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => 'mkhsr6jpj28nro0rubmssi8upl'
+    '_csrf' => '2aa04ab058237c66e0f7bc1ab8ac8b12a7a25ef8d62a0157cad05ea3698f8139a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4zNBK1w2ihBsW_7yGqoSEMt6W5T7NQ1f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=mkhsr6jpj28nro0rubmssi8upl; _csrf=2aa04ab058237c66e0f7bc1ab8ac8b12a7a25ef8d62a0157cad05ea3698f8139a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224zNBK1w2ihBsW_7yGqoSEMt6W5T7NQ1f%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55296'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554836814.219
+    'REQUEST_TIME' => 1554836814
+]
+2019-04-09 19:19:18 [::1][-][063qsmgr530q5o529egn4abnij][error][Error] Error: Class 'app\models\Usuario' not found in /var/www/html/dermologia/models/Usuarios.php:111
+Stack trace:
+#0 /var/www/html/dermologia/models/LoginForm.php(76): app\models\Usuarios::findByUsername('admin')
+#1 /var/www/html/dermologia/models/LoginForm.php(48): app\models\LoginForm->getUser()
+#2 [internal function]: app\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#3 /var/www/html/dermologia/vendor/yiisoft/yii2/validators/InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#4 /var/www/html/dermologia/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(app\models\LoginForm), 'password')
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\LoginForm), Array)
+#6 /var/www/html/dermologia/models/LoginForm.php(62): yii\base\Model->validate()
+#7 /var/www/html/dermologia/controllers/SiteController.php(79): app\models\LoginForm->login()
+#8 [internal function]: app\controllers\SiteController->actionLogin()
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#12 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#13 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#15 {main}
+2019-04-09 19:19:17 [::1][-][063qsmgr530q5o529egn4abnij][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'k4tSPURos284b5UAtj0FWlWHeN1kAiS9gz-LrXvXLXfg4ApFAxHyWVsO42LfC1M4BvYWtgc6S8zFZ93MSrh3PQ=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'admin'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => '063qsmgr530q5o529egn4abnij'
+    '_csrf' => '570b95d13f7c87ac8a6dba3f6f800aa7d4c871b273ed6f8436055377a7d4adc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"skXxGyA6cavbi6VbSqnkc8oqFXVa1oZJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '228'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=063qsmgr530q5o529egn4abnij; _csrf=570b95d13f7c87ac8a6dba3f6f800aa7d4c871b273ed6f8436055377a7d4adc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22skXxGyA6cavbi6VbSqnkc8oqFXVa1oZJ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/site/login'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PATH_TRANSLATED' => '/var/www/html/site/login'
+    'PHP_SELF' => '/dermologia/web/index.php/site/login'
+    'REQUEST_TIME_FLOAT' => 1554837557.928
+    'REQUEST_TIME' => 1554837557
+]
+2019-04-09 19:19:44 [::1][-][063qsmgr530q5o529egn4abnij][error][ArgumentCountError] ArgumentCountError: Too few arguments to function app\models\Usuarios::validatePassword(), 1 passed in /var/www/html/dermologia/models/LoginForm.php on line 50 and exactly 2 expected in /var/www/html/dermologia/models/Usuarios.php:151
+Stack trace:
+#0 /var/www/html/dermologia/models/LoginForm.php(50): app\models\Usuarios->validatePassword('123')
+#1 [internal function]: app\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/validators/InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#3 /var/www/html/dermologia/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(app\models\LoginForm), 'password')
+#4 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\LoginForm), Array)
+#5 /var/www/html/dermologia/models/LoginForm.php(62): yii\base\Model->validate()
+#6 /var/www/html/dermologia/controllers/SiteController.php(79): app\models\LoginForm->login()
+#7 [internal function]: app\controllers\SiteController->actionLogin()
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#11 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#12 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#14 {main}
+2019-04-09 19:19:44 [::1][-][063qsmgr530q5o529egn4abnij][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'Juoyb8FJPPOXCtkbzKsaYthhmPDJo8PLAoeuE7iHdu9VgWoXhjB9xfRrr3mlnUwAixD2m6qbrLpE3_hyiegspQ=='
+    'LoginForm' => [
+        'username' => 'maritza'
+        'password' => '123'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => '063qsmgr530q5o529egn4abnij'
+    '_csrf' => '570b95d13f7c87ac8a6dba3f6f800aa7d4c871b273ed6f8436055377a7d4adc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"skXxGyA6cavbi6VbSqnkc8oqFXVa1oZJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '228'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=063qsmgr530q5o529egn4abnij; _csrf=570b95d13f7c87ac8a6dba3f6f800aa7d4c871b273ed6f8436055377a7d4adc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22skXxGyA6cavbi6VbSqnkc8oqFXVa1oZJ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55370'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/site/login'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PATH_TRANSLATED' => '/var/www/html/site/login'
+    'PHP_SELF' => '/dermologia/web/index.php/site/login'
+    'REQUEST_TIME_FLOAT' => 1554837584.216
+    'REQUEST_TIME' => 1554837584
+]
+2019-04-09 19:20:01 [::1][-][063qsmgr530q5o529egn4abnij][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contraseña' in 'where clause' in /var/www/html/dermologia/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatement->execute()
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/db/Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 /var/www/html/dermologia/vendor/yiisoft/yii2/db/Query.php(274): yii\db\Command->queryOne()
+#4 /var/www/html/dermologia/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /var/www/html/dermologia/models/UsuariosQuery.php(32): yii\db\ActiveQuery->one(NULL)
+#6 /var/www/html/dermologia/models/Usuarios.php(155): app\models\UsuariosQuery->one()
+#7 /var/www/html/dermologia/models/LoginForm.php(50): app\models\Usuarios->validatePassword(Object(app\models\Usuarios), '123')
+#8 [internal function]: app\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/validators/InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#10 /var/www/html/dermologia/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(app\models\LoginForm), 'password')
+#11 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\LoginForm), Array)
+#12 /var/www/html/dermologia/models/LoginForm.php(62): yii\base\Model->validate()
+#13 /var/www/html/dermologia/controllers/SiteController.php(79): app\models\LoginForm->login()
+#14 [internal function]: app\controllers\SiteController->actionLogin()
+#15 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#18 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#19 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#21 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contraseña' in 'where clause'
+The SQL being executed was: SELECT * FROM `tbl_usuarios` WHERE (`usuario`='Maritza') AND (`contraseña`='123') in /var/www/html/dermologia/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/db/Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/db/Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 /var/www/html/dermologia/vendor/yiisoft/yii2/db/Query.php(274): yii\db\Command->queryOne()
+#4 /var/www/html/dermologia/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /var/www/html/dermologia/models/UsuariosQuery.php(32): yii\db\ActiveQuery->one(NULL)
+#6 /var/www/html/dermologia/models/Usuarios.php(155): app\models\UsuariosQuery->one()
+#7 /var/www/html/dermologia/models/LoginForm.php(50): app\models\Usuarios->validatePassword(Object(app\models\Usuarios), '123')
+#8 [internal function]: app\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/validators/InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#10 /var/www/html/dermologia/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(app\models\LoginForm), 'password')
+#11 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\LoginForm), Array)
+#12 /var/www/html/dermologia/models/LoginForm.php(62): yii\base\Model->validate()
+#13 /var/www/html/dermologia/controllers/SiteController.php(79): app\models\LoginForm->login()
+#14 [internal function]: app\controllers\SiteController->actionLogin()
+#15 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#18 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#19 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'contraseña' in 'where clause'
+)
+
+2019-04-09 19:20:01 [::1][-][063qsmgr530q5o529egn4abnij][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'Juoyb8FJPPOXCtkbzKsaYthhmPDJo8PLAoeuE7iHdu9VgWoXhjB9xfRrr3mlnUwAixD2m6qbrLpE3_hyiegspQ=='
+    'LoginForm' => [
+        'username' => 'maritza'
+        'password' => '123'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => '063qsmgr530q5o529egn4abnij'
+    '_csrf' => '570b95d13f7c87ac8a6dba3f6f800aa7d4c871b273ed6f8436055377a7d4adc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"skXxGyA6cavbi6VbSqnkc8oqFXVa1oZJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '228'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=063qsmgr530q5o529egn4abnij; _csrf=570b95d13f7c87ac8a6dba3f6f800aa7d4c871b273ed6f8436055377a7d4adc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22skXxGyA6cavbi6VbSqnkc8oqFXVa1oZJ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55374'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/site/login'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PATH_TRANSLATED' => '/var/www/html/site/login'
+    'PHP_SELF' => '/dermologia/web/index.php/site/login'
+    'REQUEST_TIME_FLOAT' => 1554837601.572
+    'REQUEST_TIME' => 1554837601
+]
+2019-04-09 19:24:02 [::1][30][8144gmsfbfikgnrvsh80di4pv4][error][ParseError] ParseError: syntax error, unexpected '/' in /var/www/html/dermologia/views/layouts/main.php:51
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-04-09 19:24:02 [::1][30][8144gmsfbfikgnrvsh80di4pv4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => '8144gmsfbfikgnrvsh80di4pv4'
+    '_csrf' => '92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=8144gmsfbfikgnrvsh80di4pv4; _csrf=92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55408'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554837842.718
+    'REQUEST_TIME' => 1554837842
+]
+2019-04-09 19:24:38 [::1][-][trvdh3c3ubf89v0050kl2vs3qp][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in /var/www/html/dermologia/views/layouts/main.php:51
+Stack trace:
+#0 /var/www/html/dermologia/views/layouts/main.php(51): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/var/www/html/d...', 51, Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/d...')
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#3 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#4 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#5 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#10 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#11 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2019-04-09 19:24:38 [::1][-][trvdh3c3ubf89v0050kl2vs3qp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    '_csrf' => '92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw\";}'
+    'PHPSESSID' => 'trvdh3c3ubf89v0050kl2vs3qp'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; _csrf=92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw%22%3B%7D; PHPSESSID=trvdh3c3ubf89v0050kl2vs3qp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55418'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554837878.587
+    'REQUEST_TIME' => 1554837878
+]
+2019-04-09 19:25:26 [::1][-][trvdh3c3ubf89v0050kl2vs3qp][error][ParseError] ParseError: syntax error, unexpected end of file in /var/www/html/dermologia/views/layouts/main.php:317
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-04-09 19:25:26 [::1][-][trvdh3c3ubf89v0050kl2vs3qp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    '_csrf' => '92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw\";}'
+    'PHPSESSID' => 'trvdh3c3ubf89v0050kl2vs3qp'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; _csrf=92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw%22%3B%7D; PHPSESSID=trvdh3c3ubf89v0050kl2vs3qp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55426'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554837926.334
+    'REQUEST_TIME' => 1554837926
+]
+2019-04-09 19:25:44 [::1][-][trvdh3c3ubf89v0050kl2vs3qp][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in /var/www/html/dermologia/views/layouts/main.php:53
+Stack trace:
+#0 /var/www/html/dermologia/views/layouts/main.php(53): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/var/www/html/d...', 53, Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/d...')
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#3 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#4 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#5 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#10 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#11 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2019-04-09 19:25:44 [::1][-][trvdh3c3ubf89v0050kl2vs3qp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    '_csrf' => '92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw\";}'
+    'PHPSESSID' => 'trvdh3c3ubf89v0050kl2vs3qp'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; _csrf=92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw%22%3B%7D; PHPSESSID=trvdh3c3ubf89v0050kl2vs3qp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55430'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554837944.582
+    'REQUEST_TIME' => 1554837944
+]
+2019-04-09 19:27:04 [::1][-][trvdh3c3ubf89v0050kl2vs3qp][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in /var/www/html/dermologia/views/layouts/main.php:53
+Stack trace:
+#0 /var/www/html/dermologia/views/layouts/main.php(53): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/var/www/html/d...', 53, Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/d...')
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#3 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#4 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#5 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#10 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#11 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2019-04-09 19:27:04 [::1][-][trvdh3c3ubf89v0050kl2vs3qp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    '_csrf' => '92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw\";}'
+    'PHPSESSID' => 'trvdh3c3ubf89v0050kl2vs3qp'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; _csrf=92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw%22%3B%7D; PHPSESSID=trvdh3c3ubf89v0050kl2vs3qp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55436'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554838024.924
+    'REQUEST_TIME' => 1554838024
+]
+2019-04-09 19:27:06 [::1][-][trvdh3c3ubf89v0050kl2vs3qp][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in /var/www/html/dermologia/views/layouts/main.php:53
+Stack trace:
+#0 /var/www/html/dermologia/views/layouts/main.php(53): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/var/www/html/d...', 53, Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/d...')
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#3 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#4 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#5 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#10 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#11 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2019-04-09 19:27:06 [::1][-][trvdh3c3ubf89v0050kl2vs3qp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    '_csrf' => '92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw\";}'
+    'PHPSESSID' => 'trvdh3c3ubf89v0050kl2vs3qp'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; _csrf=92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw%22%3B%7D; PHPSESSID=trvdh3c3ubf89v0050kl2vs3qp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55438'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554838026.331
+    'REQUEST_TIME' => 1554838026
+]
+2019-04-09 19:27:09 [::1][-][trvdh3c3ubf89v0050kl2vs3qp][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in /var/www/html/dermologia/views/layouts/main.php:53
+Stack trace:
+#0 /var/www/html/dermologia/views/layouts/main.php(53): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/var/www/html/d...', 53, Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/html/d...')
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#3 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#4 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#5 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#10 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#11 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2019-04-09 19:27:09 [::1][-][trvdh3c3ubf89v0050kl2vs3qp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    '_csrf' => '92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw\";}'
+    'PHPSESSID' => 'trvdh3c3ubf89v0050kl2vs3qp'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; _csrf=92f933fedd48964b6bb51099fc7c81f0bb0febcea957bf41a811805eebadc2b4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pDaHDuGnY7eMqyATVgxqbYlFlovaTEtw%22%3B%7D; PHPSESSID=trvdh3c3ubf89v0050kl2vs3qp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55440'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554838029.588
+    'REQUEST_TIME' => 1554838029
+]
+2019-04-09 19:58:34 [::1][30][bo4tl2345u783vikpks6kblu37][error][ParseError] ParseError: syntax error, unexpected ',' in /var/www/html/dermologia/views/layouts/main.php:73
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-04-09 19:58:34 [::1][30][bo4tl2345u783vikpks6kblu37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => 'bo4tl2345u783vikpks6kblu37'
+    '_csrf' => 'bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=bo4tl2345u783vikpks6kblu37; _csrf=bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55622'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554839914.531
+    'REQUEST_TIME' => 1554839914
+]
+2019-04-09 19:59:06 [::1][30][bo4tl2345u783vikpks6kblu37][error][ParseError] ParseError: syntax error, unexpected ']' in /var/www/html/dermologia/views/layouts/main.php:73
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-04-09 19:59:06 [::1][30][bo4tl2345u783vikpks6kblu37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => 'bo4tl2345u783vikpks6kblu37'
+    '_csrf' => 'bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=bo4tl2345u783vikpks6kblu37; _csrf=bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554839946.431
+    'REQUEST_TIME' => 1554839946
+]
+2019-04-09 19:59:13 [::1][30][bo4tl2345u783vikpks6kblu37][error][ParseError] ParseError: syntax error, unexpected ';' in /var/www/html/dermologia/views/layouts/main.php:73
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-04-09 19:59:13 [::1][30][bo4tl2345u783vikpks6kblu37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => 'bo4tl2345u783vikpks6kblu37'
+    '_csrf' => 'bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=bo4tl2345u783vikpks6kblu37; _csrf=bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55634'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554839953.446
+    'REQUEST_TIME' => 1554839953
+]
+2019-04-09 19:59:40 [::1][30][bo4tl2345u783vikpks6kblu37][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /var/www/html/dermologia/views/layouts/main.php:73
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-04-09 19:59:40 [::1][30][bo4tl2345u783vikpks6kblu37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => 'bo4tl2345u783vikpks6kblu37'
+    '_csrf' => 'bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=bo4tl2345u783vikpks6kblu37; _csrf=bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55638'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554839980.887
+    'REQUEST_TIME' => 1554839980
+]
+2019-04-09 20:00:29 [::1][30][bo4tl2345u783vikpks6kblu37][error][ParseError] ParseError: syntax error, unexpected 'if' (T_IF), expecting ']' in /var/www/html/dermologia/views/layouts/main.php:73
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-04-09 20:00:29 [::1][30][bo4tl2345u783vikpks6kblu37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => 'bo4tl2345u783vikpks6kblu37'
+    '_csrf' => 'bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=bo4tl2345u783vikpks6kblu37; _csrf=bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55642'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554840029.914
+    'REQUEST_TIME' => 1554840029
+]
+2019-04-09 20:02:05 [::1][30][bo4tl2345u783vikpks6kblu37][error][ParseError] ParseError: syntax error, unexpected ')', expecting ']' in /var/www/html/dermologia/views/layouts/main.php:73
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-04-09 20:02:05 [::1][30][bo4tl2345u783vikpks6kblu37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => 'bo4tl2345u783vikpks6kblu37'
+    '_csrf' => 'bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=bo4tl2345u783vikpks6kblu37; _csrf=bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55648'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554840125.465
+    'REQUEST_TIME' => 1554840125
+]
+2019-04-09 20:02:44 [::1][30][bo4tl2345u783vikpks6kblu37][error][ParseError] ParseError: syntax error, unexpected ')', expecting ']' in /var/www/html/dermologia/views/layouts/main.php:73
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-04-09 20:02:44 [::1][30][bo4tl2345u783vikpks6kblu37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => 'bo4tl2345u783vikpks6kblu37'
+    '_csrf' => 'bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=bo4tl2345u783vikpks6kblu37; _csrf=bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55654'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554840164.418
+    'REQUEST_TIME' => 1554840164
+]
+2019-04-09 20:03:57 [::1][30][bo4tl2345u783vikpks6kblu37][error][ParseError] ParseError: syntax error, unexpected ')', expecting ']' in /var/www/html/dermologia/views/layouts/main.php:73
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-04-09 20:03:57 [::1][30][bo4tl2345u783vikpks6kblu37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => 'bo4tl2345u783vikpks6kblu37'
+    '_csrf' => 'bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=bo4tl2345u783vikpks6kblu37; _csrf=bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55662'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554840237.921
+    'REQUEST_TIME' => 1554840237
+]
+2019-04-09 20:03:58 [::1][30][bo4tl2345u783vikpks6kblu37][error][ParseError] ParseError: syntax error, unexpected ')', expecting ']' in /var/www/html/dermologia/views/layouts/main.php:73
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-04-09 20:03:58 [::1][30][bo4tl2345u783vikpks6kblu37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => 'bo4tl2345u783vikpks6kblu37'
+    '_csrf' => 'bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=bo4tl2345u783vikpks6kblu37; _csrf=bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55664'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554840238.792
+    'REQUEST_TIME' => 1554840238
+]
+2019-04-09 20:03:59 [::1][30][bo4tl2345u783vikpks6kblu37][error][ParseError] ParseError: syntax error, unexpected ')', expecting ']' in /var/www/html/dermologia/views/layouts/main.php:73
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-04-09 20:03:59 [::1][30][bo4tl2345u783vikpks6kblu37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => 'bo4tl2345u783vikpks6kblu37'
+    '_csrf' => 'bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=bo4tl2345u783vikpks6kblu37; _csrf=bc1181a54dff92866dde9554189a3c821f0118d3ad55ff3a25b376134bb9cef5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-BfT0VIOLT2ofsvR0SlOdNpoG09rs5sr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55666'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554840239.255
+    'REQUEST_TIME' => 1554840239
+]
+2019-04-09 20:09:02 [::1][-][a795bmcf2gjri8usta56al8m52][error][ParseError] ParseError: syntax error, unexpected ')' in /var/www/html/dermologia/views/layouts/main.php:74
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/html/d...', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/d...', Array, Object(app\controllers\SiteController))
+#2 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 /var/www/html/dermologia/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/dermologia/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-04-09 20:09:02 [::1][-][a795bmcf2gjri8usta56al8m52][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    '_csrf' => '8f7e1a35da66bbb6dbc74fa08ab4b1cee5a3729acf34715ae961d31ec1aa3bc2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mXYAucVsBu4n47f4vWl8ljVViPVYpQiI\";}'
+    'PHPSESSID' => 'a795bmcf2gjri8usta56al8m52'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/cita/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; _csrf=8f7e1a35da66bbb6dbc74fa08ab4b1cee5a3729acf34715ae961d31ec1aa3bc2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mXYAucVsBu4n47f4vWl8ljVViPVYpQiI%22%3B%7D; PHPSESSID=a795bmcf2gjri8usta56al8m52'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55724'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PHP_SELF' => '/dermologia/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1554840542.348
+    'REQUEST_TIME' => 1554840542
+]
+2019-04-09 20:10:18 [::1][30][2gt9dsmsga2j8umqdpaqa516gn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "unidad/index". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('unidad/index', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-04-09 20:10:17 [::1][30][2gt9dsmsga2j8umqdpaqa516gn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => '2gt9dsmsga2j8umqdpaqa516gn'
+    '_csrf' => '6f008585d8df2f9c0fe5e05cb9529e65dcff6a16adf46781648276a4bd0f93e1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5_wm2-EILKcEpl4I8n43oYtn03fQiYtV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=2gt9dsmsga2j8umqdpaqa516gn; _csrf=6f008585d8df2f9c0fe5e05cb9529e65dcff6a16adf46781648276a4bd0f93e1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225_wm2-EILKcEpl4I8n43oYtn03fQiYtV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55746'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/unidad/index'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/unidad/index'
+    'PATH_TRANSLATED' => '/var/www/html/unidad/index'
+    'PHP_SELF' => '/dermologia/web/index.php/unidad/index'
+    'REQUEST_TIME_FLOAT' => 1554840617.974
+    'REQUEST_TIME' => 1554840617
+]
+2019-04-09 20:10:28 [::1][30][2gt9dsmsga2j8umqdpaqa516gn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "unidad/index". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('unidad/index', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-04-09 20:10:28 [::1][30][2gt9dsmsga2j8umqdpaqa516gn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => '2gt9dsmsga2j8umqdpaqa516gn'
+    '_csrf' => '6f008585d8df2f9c0fe5e05cb9529e65dcff6a16adf46781648276a4bd0f93e1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5_wm2-EILKcEpl4I8n43oYtn03fQiYtV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=2gt9dsmsga2j8umqdpaqa516gn; _csrf=6f008585d8df2f9c0fe5e05cb9529e65dcff6a16adf46781648276a4bd0f93e1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225_wm2-EILKcEpl4I8n43oYtn03fQiYtV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55752'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/unidad/index'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/unidad/index'
+    'PATH_TRANSLATED' => '/var/www/html/unidad/index'
+    'PHP_SELF' => '/dermologia/web/index.php/unidad/index'
+    'REQUEST_TIME_FLOAT' => 1554840628.956
+    'REQUEST_TIME' => 1554840628
+]
+2019-04-09 20:22:55 [::1][30][2gt9dsmsga2j8umqdpaqa516gn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "cierre/index". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('cierre/index', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-04-09 20:22:55 [::1][30][2gt9dsmsga2j8umqdpaqa516gn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => '2gt9dsmsga2j8umqdpaqa516gn'
+    '_csrf' => '6f008585d8df2f9c0fe5e05cb9529e65dcff6a16adf46781648276a4bd0f93e1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5_wm2-EILKcEpl4I8n43oYtn03fQiYtV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/biopsia/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=2gt9dsmsga2j8umqdpaqa516gn; _csrf=6f008585d8df2f9c0fe5e05cb9529e65dcff6a16adf46781648276a4bd0f93e1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225_wm2-EILKcEpl4I8n43oYtn03fQiYtV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55864'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/cierre/index'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/cierre/index'
+    'PATH_TRANSLATED' => '/var/www/html/cierre/index'
+    'PHP_SELF' => '/dermologia/web/index.php/cierre/index'
+    'REQUEST_TIME_FLOAT' => 1554841375.718
+    'REQUEST_TIME' => 1554841375
+]
+2019-04-09 20:23:06 [::1][30][2gt9dsmsga2j8umqdpaqa516gn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "cierre/index". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('cierre/index', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-04-09 20:23:06 [::1][30][2gt9dsmsga2j8umqdpaqa516gn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => '2gt9dsmsga2j8umqdpaqa516gn'
+    '_csrf' => '6f008585d8df2f9c0fe5e05cb9529e65dcff6a16adf46781648276a4bd0f93e1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5_wm2-EILKcEpl4I8n43oYtn03fQiYtV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/cierre/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=2gt9dsmsga2j8umqdpaqa516gn; _csrf=6f008585d8df2f9c0fe5e05cb9529e65dcff6a16adf46781648276a4bd0f93e1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225_wm2-EILKcEpl4I8n43oYtn03fQiYtV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55868'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/cierre/index'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/cierre/index'
+    'PATH_TRANSLATED' => '/var/www/html/cierre/index'
+    'PHP_SELF' => '/dermologia/web/index.php/cierre/index'
+    'REQUEST_TIME_FLOAT' => 1554841386.797
+    'REQUEST_TIME' => 1554841386
+]
+2019-04-09 20:23:07 [::1][30][2gt9dsmsga2j8umqdpaqa516gn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "cierre/index". in /var/www/html/dermologia/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('cierre/index', Array)
+#1 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/dermologia/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/dermologia/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/dermologia/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-04-09 20:23:07 [::1][30][2gt9dsmsga2j8umqdpaqa516gn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.106098454.1543860470.1543860470.1543860470.1'
+    '__utmz' => '111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.106098454.1543860470'
+    'menuIsCollapsed' => 'false'
+    '_gid' => 'GA1.1.762181358.1554833019'
+    'PHPSESSID' => '2gt9dsmsga2j8umqdpaqa516gn'
+    '_csrf' => '6f008585d8df2f9c0fe5e05cb9529e65dcff6a16adf46781648276a4bd0f93e1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5_wm2-EILKcEpl4I8n43oYtn03fQiYtV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 30
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/dermologia/web/index.php/cierre/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '__utma=111872281.106098454.1543860470.1543860470.1543860470.1; __utmz=111872281.1543860470.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.106098454.1543860470; menuIsCollapsed=false; _gid=GA1.1.762181358.1554833019; PHPSESSID=2gt9dsmsga2j8umqdpaqa516gn; _csrf=6f008585d8df2f9c0fe5e05cb9529e65dcff6a16adf46781648276a4bd0f93e1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225_wm2-EILKcEpl4I8n43oYtn03fQiYtV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/dermologia/web/index.php'
+    'REMOTE_PORT' => '55868'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dermologia/web/index.php/cierre/index'
+    'SCRIPT_NAME' => '/dermologia/web/index.php'
+    'PATH_INFO' => '/cierre/index'
+    'PATH_TRANSLATED' => '/var/www/html/cierre/index'
+    'PHP_SELF' => '/dermologia/web/index.php/cierre/index'
+    'REQUEST_TIME_FLOAT' => 1554841387.865
+    'REQUEST_TIME' => 1554841387
+]
