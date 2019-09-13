@@ -3,6 +3,8 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
+use app\models\Unidades;
+
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\MedicoSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
@@ -14,7 +16,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1><?= Html::encode($this->title) ?></h1>
     <?php Pjax::begin(); ?>
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+    <?php // echo $this->render('_search', ['model' => $searchModel]);
+      $unidad= new Unidades();
+    ?>
 
     <p>
         <?= Html::a('Create Medico', ['create'], ['class' => 'btn btn-success']) ?>
@@ -22,17 +26,31 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
+        //'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
+          //  'id',
             'usuario',
-            'id_unidad',
+            //'id_unidad',
             'nombre',
             'apellido',
-            //'telefono1',
-            //'telefono2',
+            [
+    'attribute' => 'Unidad medica',
+    'format'    => 'html',
+    'value'     => function($model)
+    {
+        $items = "";
+        $uni=\app\models\Unidades::findAll(['id'=>$model->id_unidad]);
+        foreach($uni as $p)
+        {
+          $items .= $p['nombre'];
+        }
+        return $items;
+    },
+],
+            'telefono1',
+            'telefono2',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

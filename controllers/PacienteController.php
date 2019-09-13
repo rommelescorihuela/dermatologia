@@ -108,6 +108,19 @@ class PacienteController extends Controller
 
         return $this->redirect(['index']);
     }
+    public function actionDatos()
+    {
+      $datos=Yii::$app->request->post();
+      $ci=$datos['cedula'];
+      $model = new Paciente();
+      $paciente = $model->find()->where(['ci'=>$ci])->one();
+      $nombrecompleto=$paciente->nombre.' '.$paciente->apellido;
+      Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+        return [
+        'cedula'=> $ci,
+        'nombrecompleto' => $nombrecompleto,
+      ];
+    }
 
     /**
      * Finds the Paciente model based on its primary key value.

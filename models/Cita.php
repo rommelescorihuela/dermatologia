@@ -12,9 +12,13 @@ use Yii;
  * @property int $id_medico
  * @property string $fecha
  * @property string $status
+ * @property string $hora 
+
  */
 class Cita extends \yii\db\ActiveRecord
 {
+  public $cedula;
+  public $nombrecompleto;
     /**
      * {@inheritdoc}
      */
@@ -30,7 +34,9 @@ class Cita extends \yii\db\ActiveRecord
     {
         return [
             [['id_paciente', 'id_medico'], 'integer'],
-            [['fecha'], 'safe'],
+            [['fecha', 'id_medico','nombrecompleto'], 'required'],
+            [['hora'], 'required'], 
+           [['hora'], 'string', 'max' => 20],
             [['status'], 'string', 'max' => 1],
         ];
     }
@@ -43,8 +49,9 @@ class Cita extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'id_paciente' => 'Id Paciente',
-            'id_medico' => 'Id Medico',
+            'id_medico' => 'Medico',
             'fecha' => 'Fecha',
+            'hora' => 'Hora', 
             'status' => 'Status',
         ];
     }

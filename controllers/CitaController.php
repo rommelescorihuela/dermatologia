@@ -8,6 +8,7 @@ use app\models\CitaSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use app\models\Medico;
 
 /**
  * CitaController implements the CRUD actions for Cita model.
@@ -65,13 +66,14 @@ class CitaController extends Controller
     public function actionCreate()
     {
         $model = new Cita();
-
+        $medico = new Medico();
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         }
 
         return $this->render('create', [
             'model' => $model,
+            'medico'=> $medico,
         ]);
     }
 
@@ -85,6 +87,7 @@ class CitaController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
+        $medico = new Medico();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -92,6 +95,7 @@ class CitaController extends Controller
 
         return $this->render('update', [
             'model' => $model,
+            'medico'=> $medico,
         ]);
     }
 
@@ -107,6 +111,35 @@ class CitaController extends Controller
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
+    }
+
+    public function actionConsultacita()
+    {
+        $datos=Yii::$app->request->post();
+      $hora=$datos['hora'];
+      $medico=$datos['medico'];
+      $fecha=$datos['fecha'];
+      $connection = Yii::$app->getDb();
+            $sql="sELECT * FROM `tbl_cita` WHERE id_medico=".$medico." and fecha='".$fecha."' and hora='".$hora."'";
+            $command = $connection->createCommand($sql);
+
+            $cita = $command->queryAll();
+            //var_dump($cita);
+      if(count($cita)==0)
+      {
+        $ocupado=false;
+      }
+      else{
+        $ocupado=true;
+      }
+      //$nombrecompleto=$paciente->nombre.' '.$paciente->apellido;
+      Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+        return [
+        'hora'=> $hora,
+        'fecha' => $fecha,
+        'medico' => $medico,
+        'ocupado' => $ocupado,
+      ];
     }
 
     /**

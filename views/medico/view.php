@@ -29,13 +29,27 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            'id',
+            //'id',
             'usuario',
-            'id_unidad',
+            //'id_unidad',
             'nombre',
             'apellido',
             'telefono1',
             'telefono2',
+            [
+    'attribute' => 'Unidad medica',
+    'format'    => 'html',
+    'value'     => function($model)
+    {
+        $items = "";
+        $uni=\app\models\Unidades::findAll(['id'=>$model->id_unidad]);
+        foreach($uni as $p)
+        {
+          $items .= $p['nombre'];
+        }
+        return $items;
+    },
+],
         ],
     ]) ?>
 

@@ -113,7 +113,7 @@ class Usuarios extends \yii\db\ActiveRecord implements \yii\web\IdentityInterfac
             {
                 //var_dump($usuario->usuario);
                 //exit;
-                return new static($usuario);
+                return ($usuario);
             }
             return null;
     }
@@ -124,6 +124,11 @@ class Usuarios extends \yii\db\ActiveRecord implements \yii\web\IdentityInterfac
     public function getId()
     {
         return $this->id;
+    }
+
+    public function getNombreCompleto()
+    {
+        return $this->nombre.' '.$this->apellido;
     }
 
     /**

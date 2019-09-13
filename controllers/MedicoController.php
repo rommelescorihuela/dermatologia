@@ -8,6 +8,7 @@ use app\models\MedicoSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use app\models\Unidades;
 
 /**
  * MedicoController implements the CRUD actions for Medico model.
@@ -35,12 +36,16 @@ class MedicoController extends Controller
      */
     public function actionIndex()
     {
+        $unidad= new Unidades();
+        $model = new Medico();
         $searchModel = new MedicoSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
+            'unidad' => $unidad,
+            'model' => $model,
         ]);
     }
 
@@ -65,6 +70,7 @@ class MedicoController extends Controller
     public function actionCreate()
     {
         $model = new Medico();
+        $unidad= new Unidades();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -72,6 +78,7 @@ class MedicoController extends Controller
 
         return $this->render('create', [
             'model' => $model,
+            'unidad' => $unidad,
         ]);
     }
 
@@ -85,13 +92,13 @@ class MedicoController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
-
+        $unidad= new Unidades();
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         }
-
         return $this->render('update', [
             'model' => $model,
+            'unidad' => $unidad,
         ]);
     }
 
@@ -124,4 +131,5 @@ class MedicoController extends Controller
 
         throw new NotFoundHttpException('The requested page does not exist.');
     }
+
 }

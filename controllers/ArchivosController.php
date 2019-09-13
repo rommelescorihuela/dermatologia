@@ -8,6 +8,10 @@ use app\models\ArchivosSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use app\models\Unidades;
+use app\models\UploadForm;
+use yii\web\UploadedFile;
+
 
 /**
  * ArchivosController implements the CRUD actions for Archivos model.
@@ -65,13 +69,23 @@ class ArchivosController extends Controller
     public function actionCreate()
     {
         $model = new Archivos();
-
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        $unidad= new Unidades();
+        //$archivo =  new UploadForm();
+        $n=rand(10,10000);
+        $path=Yii::getAlias('@webroot');
+        if ($model->load(Yii::$app->request->post())) {
+            $model->archivo = UploadedFile::getInstance($model,'archivo');
+            $model->archivo->saveAs($path.'/archivos/'.$model->id_paciente.'-'.$n.'.'.$model->archivo->extension);
+            $model->archivo='/archivos/'.$model->id_paciente.'-'.$n.'.'.$model->archivo->extension;
+            $model->save();
+            //var_dump($model->errors);
+            //exit();
             return $this->redirect(['view', 'id' => $model->idarc]);
         }
 
         return $this->render('create', [
             'model' => $model,
+            'unidad' => $unidad,
         ]);
     }
 
@@ -85,6 +99,7 @@ class ArchivosController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
+        $unidad= new Unidades();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->idarc]);
@@ -92,6 +107,7 @@ class ArchivosController extends Controller
 
         return $this->render('update', [
             'model' => $model,
+            'unidad' => $unidad,
         ]);
     }
 

@@ -15,6 +15,7 @@ use Yii;
  */
 class Archivos extends \yii\db\ActiveRecord
 {
+    public $nombrecompleto;
     /**
      * {@inheritdoc}
      */
@@ -33,7 +34,7 @@ class Archivos extends \yii\db\ActiveRecord
             [['id_unidad'], 'integer'],
             [['fecha'], 'safe'],
             [['id_paciente'], 'string', 'max' => 12],
-            [['archivo'], 'string', 'max' => 30],
+            [['archivo'], 'string', 'max' => 255],
         ];
     }
 

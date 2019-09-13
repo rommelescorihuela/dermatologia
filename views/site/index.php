@@ -2,19 +2,19 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Dermatologia';
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Bienvenido!</h1>
-
-       
+        <h1 align="center">
+        <?php 
+                        if(!Yii::$app->user->isGuest)
+                             {
+                                echo "Bienvenido ".Yii::$app->user->identity->usuario;
+                             }else{echo "Sistema de Control de Citas y Consultas de Pacientes";}
+                        ?>
+        </h1>
     </div>
 
-    <div class="body-content">
-
-        <?php var_dump(Yii::$app->user); ?>
-
-    </div>
 </div>

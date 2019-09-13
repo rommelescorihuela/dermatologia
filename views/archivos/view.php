@@ -33,7 +33,18 @@ $this->params['breadcrumbs'][] = $this->title;
             'id_paciente',
             'id_unidad',
             'fecha',
-            'archivo',
+            //'archivo',
+            [
+    'attribute' => 'archivos',
+    'format'    => 'html',
+    'value'     => function($model)
+    {
+        $path=Yii::getAlias('@webroot');
+        //$items = $path.$model->archivo;
+        $items= Html::a('label', ['..'.$model->archivo], ['class'=>'btn btn-primary']);
+        return $items;
+    }
+],
         ],
     ]) ?>
 
